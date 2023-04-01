@@ -1,0 +1,75 @@
+body {
+  background-color: rgb(43, 159, 226);
+  color: FADA9D;
+  margin: 7% 15%;
+}
+
+h1 {
+  font-size: 54px;
+  text-align: center;
+  font-family: "papyrus", sans-serif;
+}
+img {
+  float: left;
+  margin: 20px;
+}
+a {
+  color: whitesmoke;
+  text-decoration: none;
+  font-family: sans-serif;
+  padding: 15px;
+  border: 3px solid whitesmoke;
+  margin: 15px;
+}
+
+a:hover {
+  color: black;
+  background-color: whitesmoke;
+}
+nav {
+  background-color: rgb(51, 255, 0);
+  padding: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+nav a {
+  color: blue;
+}
+header {
+  background-color: rgb(100, 0, 83);
+}
+main {
+  background-color: darkorchid;
+  padding-bottom: 100px;
+}
+section {
+  background-color: deeppink;
+  clear: left;
+}
+footer {
+  background-color: blue;
+  text-align: center;
+  padding-top: 20px;
+}
+.funFacts {
+  text-align: center;
+  color: coral;
+  background-color: cornsilk;
+}
+#about {
+  color: rgb(0, 255, 0);
+  background-color: rgb(255, 0, 0);
+}
+@media only screen and (max-width: 650px) {
+  h1 {
+    font-size: 2rem;
+  }
+  h3 {
+    display: none;
+  }
+  img {
+    float: none;
+    width: 100%;
+  }
+}
